@@ -1,0 +1,6 @@
+.venv/
+.vscode/
+
+cache.json
+config.json
+Pipfile.lock

@@ -1,0 +1,4 @@
+type = custom/script
+exec = ~/.config/polybar/modules/posten/posten.py
+click-left = ~/.config/polybar/modules/posten/posten.py notify
+interval = 5
