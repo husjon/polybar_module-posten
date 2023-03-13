@@ -50,7 +50,7 @@ def fetch_postal_data():
             with open(cache_file, 'r') as fh:
                 postal_data = json.load(fh)
 
-    if not postal_data:
+    if postal_data is None:
         result = requests.get(
             url=API_URL,
             headers={
