@@ -54,6 +54,7 @@ def fetch_postal_data():
         result = requests.get(
             url=API_URL,
             headers={
+                'Referer': 'https://www.posten.no/en/delivery-mail',
                 'x-requested-with': 'XMLHttpRequest'
             },
             timeout=5
