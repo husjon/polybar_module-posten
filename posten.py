@@ -119,7 +119,7 @@ def main():
 BASEDIR = pathlib.Path(os.path.dirname(os.path.realpath(__file__)))
 CONFIG = load_config()
 API_URL = (
-    "https://www.posten.no/en/delivery-mail/_/component/main/1/leftRegion/1?postCode={postal_code}"
+    "https://www.posten.no/en/delivery-mail/_/component/main/1/leftRegion/11?postCode={postal_code}"
 ).format(**CONFIG)
 
 
